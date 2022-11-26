@@ -1,8 +1,8 @@
 version: "3.0"
 
 services:     
-  youtop: 
-    image: ${DOCKER_USER_ID}/ossp
+  youtop2:
+    image: ${DOCKER_USER_ID}/ossp:${BUILD_NUMBER}
     build: .
     ports: 
       - "80:80" 
