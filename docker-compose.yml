@@ -1,6 +1,9 @@
+version: "3.0"
+
 services:     
   youtop: 
+    image: ${DOCKER_USER_ID}/ossp
     build: .
     ports: 
-    - "80:80" 
+      - "80:80" 
 
